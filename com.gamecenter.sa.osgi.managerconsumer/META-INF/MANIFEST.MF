@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Managerconsumer
+Bundle-SymbolicName: com.gamecenter.sa.osgi.managerconsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.gamecenter.sa.osgi.managerconsumer.ManagerConsumerActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-15
+Import-Package: com.gamecenter.sa.osgi.gamemanageservice,
+ com.gamecenter.sa.osgi.gameservice,
+ com.gamecenter.sa.osgi.model,
+ org.osgi.framework;version="1.3.0"

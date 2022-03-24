@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Customermanagerconsumer
+Bundle-SymbolicName: com.gamecenter.sa.osgi.customermanagerconsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.gamecenter.sa.osgi.customermanagerconsumer.CustomerManageConsumerActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-15
+Import-Package: com.gamecenter.sa.osgi.gamecustomerservice,
+ com.gamecenter.sa.osgi.gamecustomerserviceproducer,
+ com.gamecenter.sa.osgi.modelCustomer,
+ org.osgi.framework;version="1.3.0"
